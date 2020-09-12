@@ -44,9 +44,9 @@ let visual = window.innerWidth
 
 ## 理想视口
 
-独立像素大小
+布局视口 = 视觉视口
 
-let dream = screen.width有很大的兼容性问题
+let dream = screen.width (有很大的兼容性问题
 
 # 用户缩放
 
