@@ -1,9 +1,6 @@
 # create react app
 
-yarn add create-react-app -D
-
-create-reac- app dirname
-
+https://create-react-app.dev/docs/getting-started/
 
 # Antd自定义主题
 
