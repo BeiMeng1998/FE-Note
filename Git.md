@@ -233,7 +233,7 @@ git stash会将未完成的修改保存到一个栈上
 
 ## git stash drop
 
-出栈
+出栈，若不小心没用应用直接出栈git fsck 
 
 # 撤回修改
 
