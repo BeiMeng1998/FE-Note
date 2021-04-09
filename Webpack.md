@@ -25,7 +25,7 @@ Loader 让 Webpack 能够去处理那些非 JavaScript 文件（Webpack自身只
 ## 5.Mode
 
 模式(Mode)提示 Webpack 使用相应模式的配置
-![](_v_images/20200512230106457_28770.png =594x)
+![](_v_images/20200512230106457_28770.png)
 
 # Webpack初体验
 

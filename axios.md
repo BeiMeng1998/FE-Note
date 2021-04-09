@@ -261,7 +261,7 @@ request(config) ==> dispatchRequest(config) ==> xhrAdapter(config)
 
 ### Promise 链式调用串联起 request(config) 流程
 
-![](_v_images/20200521162202673_8874.png =717x)
+![](_v_images/20200521162202673_8874.png)
 
 chain数组默认为[diapatchRequest, undefined]
 

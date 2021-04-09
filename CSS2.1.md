@@ -562,7 +562,7 @@ _background-color:green; /* Only works in IE6 */
 <!–[if IE 8]> 仅IE8可识别 <![endif]–>
 <!–[if IE 9]> 仅IE9可识别 <![endif]–>
 
-![hack](_v_images/20190920220742044_18221.png =1100x)
+![hack](_v_images/20190920220742044_18221.png)
 
 # 盒模型垂直水平居中方案
 

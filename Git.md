@@ -112,7 +112,7 @@ key是value的hash
 
 `echo "first commit" | git commit-tree 树对象hash`
 
-![](_v_images/20200427210205951_31592.png =773x)
+![](_v_images/20200427210205951_31592.png)
 
 # 高层命令（CRUD）
 
