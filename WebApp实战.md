@@ -85,11 +85,11 @@ rem适配原理：不改变CSS像素大小，改变元素在不同设备上所�
 ```
 //满屏16rem适配
 (function () {
-    let styleNode = document.createElement("style")
-    let w = document.documentElement.clientWidth / 16
-    styleNode.innerHTML = `html{font-size:${w}px!important;`
-    document.head.appendChild(styleNode)
-})()
+    const styleNode = document.createElement("style");
+    const w = document.documentElement.clientWidth / 16;
+    styleNode.innerHTML = `html{font-size:${w}px!important;`;
+    document.head.appendChild(styleNode);
+})();
 
 ```
 
@@ -103,11 +103,11 @@ viewport适配原理：不改变元素所占CSS像素个数，改变CSS像素和
 <meta name="viewport" content="width=device-width" />
 
 (function () {
-    let targetWidth = 750
-    let scale = document.documentElement.clientWidth / targetWidth
-    let meta = document.querySelector("meta[name='viewport']")
-    meta.content=`initial-scale=${scale},minimum-scale=${scale},maximum-scale=${scale},user-scalable=no`
-})()
+    const targetWidth = 750;
+    const scale = document.documentElement.clientWidth / targetWidth;
+    const meta = document.querySelector("meta[name='viewport']");
+    meta.content=`initial-scale=${scale},minimum-scale=${scale},maximum-scale=${scale},user-scalable=no`;
+})();
 ```
 
 # 实现CSS像素=物理像素
